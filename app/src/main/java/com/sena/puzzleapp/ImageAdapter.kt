@@ -19,9 +19,7 @@ class ImageAdapter(private val mContext: Context): BaseAdapter() {
 
     override fun getCount(): Int= files!!.size
 
-    override fun getItem(position: Int): Any?{
-        return null
-    }
+
 
     override fun getItemId(position: Int): Long =0
 
