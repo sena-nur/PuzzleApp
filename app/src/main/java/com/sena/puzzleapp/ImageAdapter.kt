@@ -43,7 +43,7 @@ class ImageAdapter(private val mContext: Context): BaseAdapter() {
                     super.onPostExecute(result)
                     imageView.setImageBitmap(bitmap)
                 }
-            }
+            }.execute()
 
         }
         return v
